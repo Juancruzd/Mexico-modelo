@@ -32,7 +32,7 @@ def exponential_model(t, y0, β): return y0 * np.exp(β*t)
 if __name__ == "__main__":
 
     # Reading data
-    DATA_URL_MEX = 'https://raw.githubusercontent.com/mexicovid19/Mexico-datos/master/datos/series_de_tiempo/'
+    DATA_URL_MEX = 'https://raw.githubusercontent.com/Juancruzd/Mexico-datos/master/datos/series_de_tiempo/'
     mex_confirmed = pd.read_csv(DATA_URL_MEX+'covid19_mex_casos_totales.csv', )
 
     # paths for saving
